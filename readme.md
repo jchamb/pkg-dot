@@ -5,7 +5,7 @@ CLI tool for managing `package.json`.
 ## Installation
 
 ```bash
-npm install --g pkg-dot
+npm install -g pkg-dot
 ```
 
 ## Usage
