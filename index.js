@@ -30,7 +30,7 @@ if ( argv._[0] ) {
     console.log(chalk.bold.green(`Setting ${argv._[0]} to ${argv._[1]}`));
     _set(package, argv._[0], argv._[1]);
     
-    fs.writeFileSync('./package.json', JSON.stringify(package, null, 2));
+    fs.writeFileSync(path, JSON.stringify(package, null, 2));
     console.log(chalk.bold.green('package.json updated.'));
 
   } else if (argv._.length === 1) {
@@ -39,7 +39,7 @@ if ( argv._[0] ) {
       console.log(chalk.bold.green(`Deleting ${argv._[0]}`));
       package = _omit(package, argv._[0]);
 
-      fs.writeFileSync('./package.json', JSON.stringify(package, null, 2));
+      fs.writeFileSync(path, JSON.stringify(package, null, 2));
       console.log(chalk.bold.green('package.json updated.'));
 
     } else {
