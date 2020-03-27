@@ -1,6 +1,6 @@
 {
   "name": "pkg-dot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Manage package.json wth dot notation",
   "main": "index.js",
   "bin": {
@@ -20,13 +20,12 @@
   "author": {
     "name": "Jake Chamberlain",
     "email": "jake@jchamb.com",
-    "url": "jchamb.com"
+    "url": "https://jchamb.com"
   },
   "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",
-    "lodash.get": "^4.4.2",
-    "lodash.set": "^4.3.2",
+    "lodash": "^4.17.15",
     "yargs": "^15.3.1"
   }
 }

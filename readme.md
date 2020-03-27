@@ -13,17 +13,23 @@ npm install -g pkg-dot
 ```sh
 $ pkg-dot property value
 
+  --path specify path to file
+  --delete | --del delete a property
+
 
   Example
     $ pkg-dot version
     $ pkg-dot version 1.0
+    $ pkg-dot --path ./submodule/package.json version 1.0
     $ pkg-dot resolutions.easy-peasy next
+    $ pkg-dot resolutions.easy-peasy --delete
 ```
 
 ## TODO
 
-- [ ] Add support for deleting
+- [X] Add support for deleting
 - [ ] Add tests
+- [ ] Add --help 
 
 ## License
 
