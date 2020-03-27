@@ -10,6 +10,7 @@
     "index.js"
   ],
   "scripts": {
+    "release": "release-it",
     "test": "test"
   },
   "keywords": [
@@ -27,5 +28,8 @@
     "chalk": "^3.0.0",
     "lodash": "^4.17.15",
     "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "release-it": "^13.4.0"
   }
 }
