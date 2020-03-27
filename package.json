@@ -1,6 +1,6 @@
 {
   "name": "pkg-dot",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Manage package.json wth dot notation",
   "main": "index.js",
   "bin": {
